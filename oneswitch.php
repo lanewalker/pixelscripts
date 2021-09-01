@@ -46,7 +46,7 @@ if(!empty($_REQUEST["reset"])){
     </script>
 </head>
 <body>
-<div id="content" style="font-size:xxx-large;"></div>
+<div id="content" style="font-size:130px;"></div>
 
 </body>
 </html>

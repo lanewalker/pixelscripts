@@ -1,4 +1,6 @@
-# pixelscripts
+![PixelStix](https://cdn.discordapp.com/attachments/529300531831898113/882837471585533952/p_logo_final_from_josh_65x65.png)
+
+# pixelscripts 
 A series of scripts that, when assigned to a PixelStix, provide certain functionalities. 
 
 ## OneSwitch.php

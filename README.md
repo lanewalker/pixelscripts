@@ -1,4 +1,6 @@
-# pixelscripts
+![PixelStix](https://cdn.discordapp.com/attachments/529300531831898113/882837471585533952/p_logo_final_from_josh_65x65.png)
+
+# pixelscripts 
 A series of scripts that, when assigned to a PixelStix, provide certain functionalities. 
 
 ## OneSwitch.php
@@ -35,10 +37,10 @@ Be sure to deploy all the files to your server for the hunt to work. Local team 
 
 | pixelstix description  |  example link |
 |---|---|
-| Stop 1 in the hunt. Video on this PixelStix informs team how to find Stop 2 |  `https://content.pixelstix.com/drag_queen_adventure/adventure.php?scavenger_stop=1` |
-| Stop 2 in the hunt. Video on this PixelStix informs team how to find Stop 3 |  `https://content.pixelstix.com/drag_queen_adventure/adventure.php?scavenger_stop=2` |
-| Reset the phone currently experiencing the hunt |  `https://content.pixelstix.com/drag_queen_adventure/adventure.php?scavenger_stop=reset` |
-| Register a team |  `https://content.pixelstix.com/drag_queen_adventure/adventure.php?scavenger_stop=register` |
-| Begins the hunt for a phone |  `https://content.pixelstix.com/drag_queen_adventure/adventure.php?scavenger_stop=begin` |
-| Replays the previous video clue so that teams can watch it while they hunt for the next stop |  `https://content.pixelstix.com/drag_queen_adventure/adventure.php?scavenger_stop=clue` |
+| Stop 1 in the hunt. Video on this PixelStix informs team how to find Stop 2 |  `https://<yourserver>/drag_queen_adventure/adventure.php?scavenger_stop=1` |
+| Stop 2 in the hunt. Video on this PixelStix informs team how to find Stop 3 |  `https://<yourserver>/drag_queen_adventure/adventure.php?scavenger_stop=2` |
+| Reset the phone currently experiencing the hunt |  `https://<yourserver>/drag_queen_adventure/adventure.php?scavenger_stop=reset` |
+| Register a team |  `https://<yourserver>/drag_queen_adventure/adventure.php?scavenger_stop=register` |
+| Begins the hunt for a phone |  `https://<yourserver>/drag_queen_adventure/adventure.php?scavenger_stop=begin` |
+| Replays the previous video clue so that teams can watch it while they hunt for the next stop |  `https://<yourserver>/drag_queen_adventure/adventure.php?scavenger_stop=clue` |
 

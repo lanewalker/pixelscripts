@@ -23,10 +23,11 @@ A registration PixelStix was scanned by each team upon starting the hunt which c
 Lastly, we also gave each team a clue PixelStix that they could take with them and scan at any time to have the previous video clue played back.
 
 ##### Setup
+- Upload the entire directory into your web server
 - This hunt had 12 stops and a video was created for each stop that was entertaining and gave a challenging clue to help find the next stop. 
 - Each video was uploaded to a PixelStix. Once uploaded the vimeo URL could be used in adventure.php.
 - Teams were encouraged so that only the team captain's phone would 'enter' and progress through the hunt. 
-- Hunt 'Entry' PixelStix were installed in various locations
+- 'Entry' PixelStix were installed in various locations
 - Be sure to modify adventure.php with the necessary URLs and images for your hunt
 
 ##### Usage

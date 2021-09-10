@@ -15,6 +15,7 @@ Assign the OneSwitch link to a PixelStix as you normally would
 - the value of `a` is a base64 encoded URL that you want users to be sent to for the first scan.
 - the value of `b` is a base64 encoded URL that you want users to be sent to only on the second scan.
 - note that all subsequent scans will be sent to `a`
+- program a separate PixelStix to `https://content.pixelstix.com/oneswitch.php?reset=on` if you'd like a way to reset your OneSwitch
 - You can base64 encode your URLs here: https://www.base64encode.org/
 
 ## Drag Queen Adventure

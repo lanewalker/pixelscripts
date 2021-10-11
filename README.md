@@ -1,7 +1,19 @@
 ![PixelStix](https://cdn.discordapp.com/attachments/529300531831898113/882837471585533952/p_logo_final_from_josh_65x65.png)
 
 # pixelscripts 
-A series of scripts that, when assigned to a PixelStix, provide certain functionalities. 
+A series of scripts that, when assigned to a PixelStix, provide certain functionalities.
+
+## Mural Adventure
+Implemented in October of 2021 as a card game that allows participants to embark on mural adventures with some basic gameplay. 
+
+#### Usage
+Assign the adventure.php script to a PixelStix
+
+`https://content.pixelstix.com/mural_adventure/adventure.php`
+
+- add new adventures to adventures.json
+- instructions will only display when a phone is *not* on an adventure
+
 
 ## OneSwitch.php
 Send a device to a specific URL only on the second scan. All other scans (including the first) will go to a default URL. This is escpecially handy when you want to offer a coupon destination only for the second scan. 

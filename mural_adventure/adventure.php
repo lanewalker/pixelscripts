@@ -16,12 +16,12 @@
         background-size: 100% 100%;
         /*background-image: url('Selection_406.png');*/
     }
-    #content {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-    }
+    /*#content {*/
+    /*    position: absolute;*/
+    /*    left: 50%;*/
+    /*    top: 50%;*/
+    /*    transform: translate(-50%,-50%);*/
+    /*}*/
 
     #team_name:not(:focus) {
         font-style:italic;
@@ -51,10 +51,9 @@
 <body>
 
 <div id="timer" style="font-family:Arial;color:black;font-size:6vw;font-weight:bold;text-align:center;display:none;"></div>
-<div id="content" style="font-family:Arial;color:black;font-size:6vw;font-weight:bold;text-align:center;"></div>
-<div id="instructions" style="font-family:Arial;color:black;font-size:6vw;font-weight:bold;text-align:center;display:none;">
-    <h3>Playing Mural Adventure</h3>
-    Adventure begins at :00 :10 :20 :30 :40 :50 each hour!
+<div id="instructions" style="font-family:Arial;color:black;font-size:6vw;font-weight:bold;text-align:center;">
+    <div><img src="mural_adventure.png" /></div>
+    <div id="content"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
@@ -85,8 +84,7 @@
                 });
             }else{
                 //give Mural Adventure Instructions
-                $("#content").hide();
-                $("#instructions").show();
+                $("#content").html("Adventure begins<br/><br/>:00 :10 :20 :30 :40 :50<br/><br/>each hour!")
             }
         }
     });

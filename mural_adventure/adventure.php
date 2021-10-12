@@ -98,9 +98,9 @@
         if(minutes_left > 0){
             $("#timer").html(minutes_left+" minutes remaining");
             $("#timer").show(1000);
-            $("#content").html("-"+adventure.adventure['name']+"-<br/>"+adventure.adventure['text']);
+            $("#content").html("<i>\""+adventure.adventure['name']+"\"</i><br/><img src=\"magic_bottle.png\" width=\"200\" /><img src=\"magic_teeth.png\" width=\"200\" /><br/>"+adventure.adventure['text']);
         }else{
-            $("#content").html("Times Up!<br/>-"+adventure.adventure['name']+"-<br/>has expired.");
+            $("#content").html("Times Up!<br/><img src=\"magic_skull.png\" width=\"300\" /><br/>"+adventure.adventure['name']+" is expired.");
         }
 
 
